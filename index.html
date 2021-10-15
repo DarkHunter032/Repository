@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <div id="conteiner">
+        <video id="vid" src="./assets/smwbv.mp4" onended="endVid()" onplay="barC()"></video>
+        <div id="controls">
+            <img onclick="backSeg()" class="cbtn" src="./assets/buttons/back_10_seg.png">
+            <img onclick="nextSeg()" class="cbtn" src="./assets/buttons/next_10_seg.png">
+            <img onclick="backVel()" class="cbtn" src="./assets/buttons/-x.png">
+            <img onclick="nextVel()" class="cbtn" src="./assets/buttons/+x.png">
+            <img onclick="playVid()" class="cbtn" src="./assets/buttons/play.png">
+            <img onclick="stopVid()" class="cbtn" src="./assets/buttons/stop.png">
+        </div>
+        <div id="bar">
+            <div id="progBar">
+
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

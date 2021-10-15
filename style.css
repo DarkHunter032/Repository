@@ -1,0 +1,55 @@
+
+body{
+    background: url(./assets/backIMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteiner{
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin: auto;
+    padding: 10px;
+    border: solid yellow 3px;
+}
+
+#vid{
+    width: 95%;
+}
+
+#controls{
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+
+.cbtn{
+    visibility: hidden;
+}
+
+#controls:hover .cbtn{
+    visibility: visible;
+    position: relative;
+    width: 50px;
+    margin: 10px;
+    top: 76%;
+}
+
+#bar{
+    position: absolute;
+    border: 3px solid rgb(119, 28, 28);
+    background-color: gray;
+    width: 94%;
+    height: 14px;
+    padding: 0px;
+}
+
+#progBar{
+    background-color: black;
+    height: 14px;
+    width: 0px;
+}
